@@ -1,0 +1,105 @@
+.post-header {
+  margin-bottom: 10px;
+}
+
+.post-meta {
+  display: block;
+  color: $color-med;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+.tag-list {
+
+}
+
+.content {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: $content-max-width;
+  overflow: hidden;
+}
+
+.post-summary {
+  margin: 10px 0 30px 0;
+}
+
+.post-content {
+
+  p, li {
+    line-height: 1.4em;
+  }
+
+  hr {
+    height: 0;
+    width: 85%;
+    margin: 30px auto;
+    border: 0;
+    border-bottom: 1px solid $color-med;
+  }
+
+  pre {
+    background-color: $color-light;
+    padding: 10px;
+    border-radius: 5px;
+
+    code {
+      padding: 0;
+    }
+  }
+
+  code {
+    background-color: $color-light;
+    padding: 3px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  blockquote {
+    margin: 0;
+    padding: 0 0 0 30px;
+    border-left: 4px solid $color-light;
+    font-size: 1.1em;
+    color: $color-med;
+    font-style: italic;
+  }
+
+  img, video, iframe, embed, object, input, textarea {
+    max-width: 100%;
+  }
+
+  img, video {
+    height: auto;
+  }
+}
+
+.post-footer {
+  .share {
+    a {
+      color: $color-med;
+    }
+  }
+}
+
+
+.pagination {
+  color: $color-med;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 0.9em;
+
+  .newer-posts {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid $color-med;
+  }
+
+  .older-posts {
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: 1px solid $color-med;
+  }
+}

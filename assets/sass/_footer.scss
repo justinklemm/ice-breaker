@@ -1,0 +1,25 @@
+.site-footer {
+
+  .inner {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: $content-max-width;
+    color: $color-med;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 0.9em;
+  }
+
+  a {
+    color: $color-med;
+  }
+
+  section {
+    display: inline-block;
+    margin-right: 5px;
+  }
+}
+
+.poweredby .icon-ghost:before {
+    margin-right: 0.2em;
+}

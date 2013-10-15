@@ -1,0 +1,112 @@
+/* Import the font file with the icons in it */
+@font-face {
+    font-family: 'icons';
+    src:url('../fonts/icons.eot');
+    src:url('../fonts/icons.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/icons.woff') format('woff'),
+        url('../fonts/icons.ttf') format('truetype'),
+        url('../fonts/icons.svg#icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply these base styles to all icons */
+.icon-ghost, .icon-feed, .icon-twitter, .icon-google-plus, .icon-facebook {
+    //font-family: 'icons';
+    speak: none;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+}
+
+/* Each icon is created by inserting the corret character into the 
+   content of the :before pseudo element. Like a boss. */
+.icon-ghost:before {
+    font-family: 'icons';
+    content: "\e000";
+}
+.icon-feed:before {
+    font-family: 'icons';
+    content: "\e001";
+}
+.icon-twitter:before {
+    font-family: 'icons';
+    content: "\e002";
+    font-size: 2.0em;
+    margin-right: 10px;
+}
+.icon-google-plus:before {
+    font-family: 'icons';
+    content: "\e003";
+    font-size: 2.0em;
+    margin-right: 10px;
+}
+.icon-facebook:before {
+    font-family: 'icons';
+    content: "\e004";
+    font-size: 2.0em;
+    margin-right: 10px;
+}
+
+/* border-box sizing */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia';
+  color: $color-dark;
+  font-size: 1.1em;
+}
+
+a:visited {
+  color: $color-link-visited;
+}
+
+a, a:hover, a:active {
+  color: $color-link;  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto';
+  font-weight: 100;
+  margin: 5px 0;
+  padding: 0;
+  line-height: 1.2em;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+h1, .post-title {
+  font-size: 1.8em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h4 {
+  font-size: 1.3em;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+h6 {
+  font-size: 1.1em;
+}
+
+.hidden {
+  display: none;
+}

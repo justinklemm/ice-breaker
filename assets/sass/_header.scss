@@ -1,0 +1,39 @@
+.site-header {
+  background-color: $color-dark;
+  background-image: url(../images/header.jpg);
+  background-size: 300% auto;
+  background-position: center 40%;
+  background-repeat: no-repeat;
+  color: $color-lightest;
+
+  .inner {
+    padding: 20px;
+  }
+
+  .logo-img {
+    
+  }
+}
+
+.logo-img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid $color-lightest;
+}
+
+.blog-title, .blog-description {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blog-title {
+  font-size: 2.3em;
+}
+
+.blog-description {
+  font-size: 1.1em;
+}
